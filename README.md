@@ -1,6 +1,6 @@
 # Square Role
 
-## First Segment
+## First Segment ("X Role")
 
 A rough list of what technologies we plan to use for this project, with the flexibility to adjust and change as we progess through the project.
 
@@ -27,14 +27,16 @@ A rough list of what technologies we plan to use for this project, with the flex
 - Matplotlib
 - Tableau
 - GitHub Pages
+  - An index.html rough outline has been created to get us an idea of how our data will be displayed for the final presentation
+    - Google Slides & Interactive Tableau Dashboard will be embedded here
 
-## Second Segment
-
-
-
-## Third Segment
+## Second Segment ("Square Role")
 
 
 
-## Fourth Segment
+## Third Segment ("Square Role")
+
+
+
+## Fourth Segment ("Square Role")
 
