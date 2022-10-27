@@ -1,10 +1,10 @@
 -- Creating tables for FinalProjectDB
 CREATE TABLE Population (
-     state_name VARCHAR(20) NOT NULL,
-     pop_2019 INT NOT NULL,
-	 pop_2020 INT NOT NULL,
-	 pop_2021 INT NOT NULL,
-     PRIMARY KEY (state_name)
+        state_name VARCHAR(20) NOT NULL,
+        pop_2019 INT NOT NULL,
+	pop_2020 INT NOT NULL,
+	pop_2021 INT NOT NULL,
+    PRIMARY KEY (state_name)
 );
 
 SELECT * FROM Population
