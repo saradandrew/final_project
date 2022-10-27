@@ -1,49 +1,96 @@
--- Creating tables for Final-ProjectDB
-CREATE TABLE performance (
-     gender VARCHAR(20) NOT NULL,
-     race_ethnicity VARCHAR(20) NOT NULL,
-	 parental_education VARCHAR(20) NOT NULL,
-	 lunch VARCHAR(20) NOT NULL,
-	 test_prep VARCHAR(20) NOT NULL,
-	 math_score INT NOT NULL,
-	 reading_score INT NOT NULL,
-	 writing_score INT NOT NULL
+-- Creating tables for FinalProjectDB
+CREATE TABLE Population (
+     state_name VARCHAR(20) NOT NULL,
+     pop_2019 INT NOT NULL,
+	 pop_2020 INT NOT NULL,
+	 pop_2021 INT NOT NULL,
+     PRIMARY KEY (state_name)
 );
 
-SELECT * FROM performance
+SELECT * FROM Population
 
-CREATE TABLE race (
-     race_ethnicity VARCHAR(20) NOT NULL,
-	 math_score INT NOT NULL,
-	 reading_score INT NOT NULL,
-	 writing_score INT NOT NULL
+CREATE TABLE Zillow (
+	state_name VARCHAR(20) NOT NULL,
+	jan19 INT NOT NULL,
+	feb19 INT NOT NULL,
+	mar19 INT NOT NULL,
+	apr19 INT NOT NULL,
+	may19 INT NOT NULL,
+	jun19 INT NOT NULL,
+	jul19 INT NOT NULL,
+	aug19 INT NOT NULL,
+	sep19 INT NOT NULL,
+	oct19 INT NOT NULL,
+	nov19 INT NOT NULL,
+	dec19 INT NOT NULL,
+	jan20 INT NOT NULL,
+	feb20 INT NOT NULL,
+	mar20 INT NOT NULL,
+	apr20 INT NOT NULL,
+	may20 INT NOT NULL,
+	jun20 INT NOT NULL,
+	jul20 INT NOT NULL,
+	aug20 INT NOT NULL,
+	sep20 INT NOT NULL,
+	oct20 INT NOT NULL,
+	nov20 INT NOT NULL,
+	dec20 INT NOT NULL,
+	jan21 INT NOT NULL,
+	feb21 INT NOT NULL,
+	mar21 INT NOT NULL,
+	apr21 INT NOT NULL,
+	may21 INT NOT NULL,
+	jun21 INT NOT NULL,
+	jul21 INT NOT NULL,
+FOREIGN KEY (state_name) REFERENCES Population (state_name),
+    PRIMARY KEY (state_name)
 );
 
-SELECT * FROM race
+SELECT * FROM Zillow
 
-CREATE TABLE parentedu (
-     parental_education VARCHAR(20) NOT NULL,
-	 math_score INT NOT NULL,
-	 reading_score INT NOT NULL,
-	 writing_score INT NOT NULL
+CREATE TABLE RDC_state_metrics (
+	month_year DATE NOT NULL,
+	state_name VARCHAR(20) NOT NULL,
+	state_id VARCHAR(5) NOT NULL,
+	median_listing_price INT NOT NULL,
+	median_listing_price_mm NUMERIC NOT NULL,
+	median_listing_price_yy NUMERIC NOT NULL,
+	active_listing_count INT NOT NULL,
+	active_listing_count_mm NUMERIC NOT NULL,
+	active_listing_count_yy NUMERIC NOT NULL,
+	median_days_on_market INT NOT NULL,
+	median_days_on_market_mm NUMERIC NOT NULL,
+	median_days_on_market_yy NUMERIC NOT NULL,
+	new_listing_count INT NOT NULL,
+	new_listing_count_mm NUMERIC NOT NULL,
+	new_listing_count_yy NUMERIC NOT NULL,
+	price_increased_count INT NOT NULL,
+	price_increased_count_mm NUMERIC NOT NULL,
+	price_increased_count_yy NUMERIC NOT NULL,
+	price_reduced_count INT NOT NULL,
+	price_reduced_count_mm NUMERIC NOT NULL,
+	price_reduced_count_yy NUMERIC NOT NULL,
+	pending_listing_count INT NOT NULL,
+	pending_listing_count_mm NUMERIC NOT NULL,
+	pending_listing_count_yy NUMERIC NOT NULL,
+	median_listing_price_per_square_foot INT NOT NULL,
+	median_listing_price_per_square_foot_mm NUMERIC NOT NULL,
+	median_listing_price_per_square_foot_yy NUMERIC NOT NULL,
+	median_square_feet INT NOT NULL,
+	median_square_feet_mm NUMERIC NOT NULL,
+	median_square_feet_yy NUMERIC NOT NULL,
+	average_listing_price INT NOT NULL,
+	average_listing_price_mm NUMERIC NOT NULL,
+	average_listing_price_yy NUMERIC NOT NULL,
+	total_listing_count INT NOT NULL,
+	total_listing_count_mm NUMERIC NOT NULL,
+	total_listing_count_yy NUMERIC NOT NULL,
+	pending_ratio NUMERIC NOT NULL,
+	pending_ratio_mm NUMERIC NOT NULL,
+	pending_ratio_yy NUMERIC NOT NULL,
+	quality_flag INT NOT NULL,
+FOREIGN KEY (state_name) REFERENCES Population (state_name),
+    PRIMARY KEY (month_year, state_name)
 );
 
-SELECT * FROM parentedu
-
-CREATE TABLE lunchstat (
-     lunch VARCHAR(20) NOT NULL,
-	 math_score INT NOT NULL,
-	 reading_score INT NOT NULL,
-	 writing_score INT NOT NULL
-);
-
-SELECT * FROM lunchstat
-
-CREATE TABLE testprep (
-     test_prep VARCHAR(20) NOT NULL,
-	 math_score INT NOT NULL,
-	 reading_score INT NOT NULL,
-	 writing_score INT NOT NULL
-);
-
-SELECT * FROM testprep
+SELECT * FROM RDC_state_metrics
