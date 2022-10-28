@@ -6,11 +6,14 @@ During the first segment of the project , the circle role is in charge of the mo
 All tables include data from 2019-2021 for the following states: California, Florida, New York, Tennessee, & Texas.
 
 Tables Uploaded: 
-1. State Population 2019-2021
-2. Zillow Home Value Index
-3. RDC State Metrics
+1. State Population 2019
+2. State Population 2020
+3. State Population 2021
+4. Zillow Home Value Index
+5. RDC State Metrics
 
-![Final Project ERD](https://user-images.githubusercontent.com/101649525/198192547-790b894b-43ee-4401-b18a-e1a49855421c.png)
+![QuickDBD-export (6)](https://user-images.githubusercontent.com/101649525/198450170-9e7ee209-b810-409f-b0a7-69c224417e97.png)
+
 
 
 ## Second Segment
