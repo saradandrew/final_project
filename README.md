@@ -12,8 +12,7 @@ Tables Uploaded:
 4. Zillow Home Value Index
 5. RDC State Metrics
 
-![QuickDBD-export (6)](https://user-images.githubusercontent.com/101649525/198450170-9e7ee209-b810-409f-b0a7-69c224417e97.png)
-
+![QuickDBD-export (7)](https://user-images.githubusercontent.com/101649525/198473506-8871c4dd-50eb-4ff8-bb2c-ecb1eb9cf8ac.png)
 
 
 ## Second Segment
