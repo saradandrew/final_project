@@ -74,6 +74,36 @@ All tables include data from 2019-2021 for the state of New York:
 
 ## Third Segment
 
+#### Brandon
+
+
+
+#### Samantha
+
+
+
+#### Carissa
+
+
+
+#### Sara
+
 
 
 ## Fourth Segment
+
+
+#### Brandon
+
+
+
+#### Samantha
+
+
+
+#### Carissa
+
+
+
+#### Sara
+
