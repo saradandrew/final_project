@@ -61,8 +61,8 @@ All tables include data from 2019-2021 for the state of New York:
     - Null values were dropped (which ended up taking Tennessee out of the running)
   - Finalized connection to send all cleaned tables to SQL for Carissa to perform the joins to add population to our other tables
 - Link to Google Slides - https://docs.google.com/presentation/d/11Tf7v4oRidKV-GZeAAdPQEV9g4EOvP3EDE6pFsY-53w/edit?usp=sharing
-- Tableau Dashboard has been created and added to index.html
-  - Five charts depicting: # of bathrooms, # of bedrooms, # of houses by square footage, Acreage grouping, and average prices by zip code
+- Tableau Dashboard has been created and added to index.html (visible from github pages deployment)
+  - Six charts depicting: # of bathrooms, # of bedrooms, # of houses by square footage, Acreage grouping, average features by sell date, and average prices by zip code
 
 #### Carissa
 
