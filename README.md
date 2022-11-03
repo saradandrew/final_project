@@ -15,7 +15,21 @@ Tables Uploaded:
 ![QuickDBD-export (7)](https://user-images.githubusercontent.com/101649525/198473506-8871c4dd-50eb-4ff8-bb2c-ecb1eb9cf8ac.png)
 
 
-## Second Segment
+## Second Segment (Triangle Role)
+During the second segemnt, we decided on our final datasets and created the following tables using Python with Jupyter Notebook with a direct link to PostgreSQL:
+1. Housing
+2. Population_2019
+3. Population_2020
+4. Population_2021
+
+![QuickDBD-2nd](https://user-images.githubusercontent.com/101649525/199623884-8ebb786c-6118-4e75-9b26-90e797b9c267.png)
+
+Once tables were uploaded in PostgreSQL, an INNER JOIN was performed for each population year and the housing table. Creating the following tables:
+1. Housing_pop2019
+2. Housing_pop2020
+3. Housing_pop2021
+
+These final tables will be used in the Machine Learning Model and used to create other visual-aids.
 
 ## Third Segment
 
