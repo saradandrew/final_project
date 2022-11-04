@@ -20,6 +20,7 @@ Based off this information, we have constructed a simple bar chart on Tableau th
 <img width="560" alt="population percentage" src="https://user-images.githubusercontent.com/107032720/199858089-12b5b87d-c429-44e3-a897-4f2c958ae6d3.png">
 
 We have also created a graph titled "Average Listing Price by Year" in which the average listing price is documented by state throughout the years (2016 to 2022).
+
 <img width="793" alt="average listing price" src="https://user-images.githubusercontent.com/107032720/199858880-e37faedd-2d3f-4709-89a0-83d3515747db.png">
 
 This graph includes a tooltip showing the median days properties remained on the market.
