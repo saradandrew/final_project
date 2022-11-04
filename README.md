@@ -16,20 +16,23 @@ Tables Uploaded:
 
 
 ## Second Segment (Triangle Role)
-During the second segemnt, we decided on our final datasets and created the following tables using Python with Jupyter Notebook with a direct link to PostgreSQL:
+During the second segemnt, we decided on our final datasets. The data was cleaned and the following tables were created using Python with Jupyter Notebook then exported to SQL:
+
 1. Housing
 2. Population_2019
 3. Population_2020
 4. Population_2021
 
+Once tables were uploaded in PostgreSQL, an INNER JOIN was performed for each population year and the housing table. Creating the following tables:
+
+Housing_pop2019
+Housing_pop2020
+Housing_pop2021
+
+
 ![QuickDBD-2nd](https://user-images.githubusercontent.com/101649525/199623884-8ebb786c-6118-4e75-9b26-90e797b9c267.png)
 
-Once tables were uploaded in PostgreSQL, an INNER JOIN was performed for each population year and the housing table. Creating the following tables:
-1. Housing_pop2019
-2. Housing_pop2020
-3. Housing_pop2021
-
-These final tables will be used in the Machine Learning Model and used to create other visual-aids.
+SQLAlchemy is used as a connection string to import the tables into Python and will be used in the Machine Learning Model.
 
 ## Third Segment
 
