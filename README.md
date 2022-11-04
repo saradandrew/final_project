@@ -18,3 +18,7 @@ In our MockUp.ipynb file, we have constructed a dataframe titled population_df f
 
 Based off this information, we have constructed a simple bar chart on Tableau that shows population by percentage. The bar chart includes a filter so that only the five states showed are presented at first. However, the interactive part of this graph is that you can choose any other state for comparison. The graph is shown below.
 <img width="560" alt="population percentage" src="https://user-images.githubusercontent.com/107032720/199858089-12b5b87d-c429-44e3-a897-4f2c958ae6d3.png">
+
+We have also created a graph titled "Average Listing Price by Year" in which the average listing price is documented by state throughout the years (2016 to 2022).
+
+This graph includes a tooltip showing the median days properties remained on the market.
