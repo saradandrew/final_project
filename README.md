@@ -49,7 +49,16 @@ All tables include data from 2019-2021 for the state of New York:
 
 ## Second Segment 
 
-#### Brandon
+#### Brandon (Triangle Role)
+We are looking at how change in population impacts housing prices. This was done by creating a linear regression. 
+
+Data was found on Kaggle for real estate information in New York. We also found New York population from 2019 to 2021. Data was then filtered down to bathrooms from 1 to 5 and bedrooms from 1 to 6.  House size, acreage, and population were not filtered because they did not have the same severity of outliers.
+
+This data was the split assigning our X variables (or independent variables) and y (or independent variable). X: "bed", "bath", "house_size", "acre_lot", and “population.” And Y: “price.” Unneeded columns were dropped to help better organize the data for the model.
+
+This model choice was done due to seeking a continuous variable (price) and due to its ease of use for this type of dataset. 
+
+
 
 
 #### Samantha ("X Role" - Presentation: Google Slides, Tableau)
