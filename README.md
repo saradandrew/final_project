@@ -25,9 +25,9 @@ During the second segemnt, we decided on our final datasets. The data was cleane
 
 Once tables were uploaded in PostgreSQL, an INNER JOIN was performed for each population year and the housing table. Creating the following tables:
 
-Housing_pop2019
-Housing_pop2020
-Housing_pop2021
+1. Housing_pop2019
+2. Housing_pop2020
+3. Housing_pop2021
 
 
 ![QuickDBD-2nd](https://user-images.githubusercontent.com/101649525/199623884-8ebb786c-6118-4e75-9b26-90e797b9c267.png)
