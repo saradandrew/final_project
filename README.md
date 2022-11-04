@@ -25,3 +25,5 @@ We have also created a graph titled "Average Listing Price by Year" in which the
 
 This graph includes a tooltip showing the median days properties remained on the market.
 <img width="924" alt="avg listing price interactivity" src="https://user-images.githubusercontent.com/107032720/199858877-aed90708-7df3-42d5-86e7-206f68817fe2.png">
+
+Another graph created is titled "Price Increase & Price Reduction by State and Year." This graph plots both the amounts of properties in California, Florida, New York, Tennessee, and Texas that experienced an increase and a reduction in price from 2016 to 2022. The graph also includes a tooltip highlighting the average listing price and median square foot.
