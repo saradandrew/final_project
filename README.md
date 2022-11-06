@@ -16,7 +16,7 @@ Tables Uploaded:
 
 
 ## Second Segment (Triangle Role)
-During the second segemnt, we decided on our final datasets. The data was cleaned and the following tables were created using Python with Jupyter Notebook then exported to SQL:
+During the second segment, we changed datasets. The data was cleaned and the following tables were created using Python with Jupyter Notebook then exported to SQL:
 
 1. Housing
 2. Population_2019
@@ -35,5 +35,19 @@ Once tables were uploaded in PostgreSQL, an INNER JOIN was performed for each po
 SQLAlchemy is used as a connection string to import the tables into Python and will be used in the Machine Learning Model.
 
 ## Third Segment
+During the third segment, we finalized our datasets. The data was scaled down to the city level of New York state. We used 8 urban cities and 5 large cties, specifiaclly the 5 boroughs of NYC (Brooklyn, Bronx, Manhattan, Staten Island, & Queens). The data was preprocessed and the following tables were created using Python with Jupyter Notebook then exported to pgadmin:
+
+1. housing
+2. urban_populations
+3. city_populations
+
+Once tables were in pgadmin, using PostgreSQL, an INNER JOIN was performed for each population file and the housing table. Creating the following tables:
+
+1. housing_urban_pops
+2. housing_city_pops
+
+Those tables were then imported by using SQLalchemy into the Machine Learning environment in Jupyter Notebook. 
+
+![QuickDBD-export (10)](https://user-images.githubusercontent.com/101649525/200152034-f1f663d3-fc63-4186-92be-fa24c55a76c4.png)
 
 ## Fourth Segment
