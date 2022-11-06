@@ -6,7 +6,7 @@ FROM population_2019
 INNER JOIN housing
 ON population_2019.state = housing.state;
 
-SELECT * FROM housing_pop2019 WHERE sold_date BETWEEN '2019-01-01' AND '2019-12-31'
+SELECT * FROM housing_pop2019 
 
 -- Create Table housing_pop2020, Join housing and population_2020
 SELECT population_2020.state, population_2020.population_2020, housing.status, housing.price, housing.bed, housing.bath, housing.acre_lot, housing.city, 
@@ -16,7 +16,7 @@ FROM population_2020
 INNER JOIN housing
 ON population_2020.state = housing.state;
 
-SELECT * FROM housing_pop2020 WHERE sold_date BETWEEN '2020-01-01' AND '2020-12-31'
+SELECT * FROM housing_pop2020 
 
 -- Create Table housing_pop2021, Join housing and population_2021
 SELECT population_2021.state, population_2021.population_2021, housing.status, housing.price, housing.bed, housing.bath, housing.acre_lot, housing.city, 
@@ -26,4 +26,4 @@ FROM population_2021
 INNER JOIN housing
 ON population_2021.state = housing.state;
 
-SELECT * FROM housing_pop2021 WHERE sold_date BETWEEN '2021-01-01' AND '2021-12-31'
+SELECT * FROM housing_pop2021
