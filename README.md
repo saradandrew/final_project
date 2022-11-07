@@ -80,6 +80,10 @@ Size vs. Price 2021:
 
 ## Third Segment
 
+#### Brandon
+
+
+
 #### Samantha
 
 - Another dataset shift - switching from state population to a more focused city population. We decided to do 5 lower population and 5 higher to compare the housing prices that way.
@@ -89,6 +93,15 @@ Size vs. Price 2021:
     - The ML code will begin with connecting to the SQL database to pull the newly joined data directly into the Jupyter Notebook
     - Collaborative effort:
       - Carissa helped to make adjustments to the preprocessing so that the SQL joins would run smoothly and I added an additional dataframe that still kept all of the data from the state of New York for our analysis outside of the population aspect from the 10 chosen cities
+- Updated the interactive Tableau dashboard - removed the "features by sell date" chart to keep it a little cleaner.
+  - The charts that will provide more specific information, but will not be interactive, will be created by Sara and added to the Google Slides
+
+#### Carissa
+
+
+
+#### Sara
+
 
 
 ## Fourth Segment
