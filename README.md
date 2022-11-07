@@ -47,7 +47,6 @@ Once tables were in pgadmin, using PostgreSQL, an INNER JOIN was performed for t
 1. housing_urban_pops
 2. housing_city_pops
 
-![QuickDBD-export (10)](https://user-images.githubusercontent.com/101649525/200152034-f1f663d3-fc63-4186-92be-fa24c55a76c4.png)
 
 The following tables were then imported by using SQLalchemy into the Machine Learning environment in Jupyter Notebook. 
 1. housing
