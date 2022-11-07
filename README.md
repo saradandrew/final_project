@@ -47,7 +47,8 @@
     - Carissa worked on the higher populations: "city_populations.csv"
   - Updated the preprocessing ipynb to reflect the newest dataset. The code still ends with sending the cleaned data to PostgreSQL for joins
     - The ML code will begin with connecting to the SQL database to pull the newly joined data directly into the Jupyter Notebook
-
+    - Collaborative effort:
+      - Carissa helped to make adjustments to the preprocessing so that the SQL joins would run smoothly and I added an additional dataframe that still kept all of the data from the state of New York for our analysis outside of the population aspect from the 10 chosen cities
 
 
 ## Fourth Segment
