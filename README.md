@@ -26,6 +26,15 @@
 
 ## Second Segment 
 
+#### Brandon (Triangle Role)
+We are looking at how change in population impacts housing prices. This was done by creating a linear regression. 
+
+Data was found on Kaggle for real estate information in New York. We also found New York population from 2019 to 2021. Data was then filtered down to bathrooms from 1 to 5 and bedrooms from 1 to 6.  House size, acreage, and population were not filtered because they did not have the same severity of outliers.
+
+This data was the split assigning our X variables (or independent variables) and y (or independent variable). X: "bed", "bath", "house_size", "acre_lot", and “population.” And Y: “price.” Unneeded columns were dropped to help better organize the data for the model.
+
+This model choice was done due to seeking a continuous variable (price) and due to its ease of use for this type of dataset. 
+
 #### Samantha ("X Role" - Presentation: Google Slides, Tableau)
 
 - Our dataset shifted again, as our machine learning helped us determine that we needed different features to predict what we wanted. So I updated our preprocessing of the data to account for this.
@@ -37,6 +46,37 @@
 - Link to Google Slides - https://docs.google.com/presentation/d/11Tf7v4oRidKV-GZeAAdPQEV9g4EOvP3EDE6pFsY-53w/edit?usp=sharing
 - Tableau Dashboard has been created and added to index.html (visible from github pages deployment)
   - Six charts depicting: # of bathrooms, # of bedrooms, # of houses by square footage, Acreage grouping, average features by sell date, and average prices by zip code
+
+#### Carissa
+During the second segment, we decided on our final datasets. The data was cleaned and the following tables were created using Python with Jupyter Notebook then exported to SQL:
+
+1. Housing
+2. Population_2019
+3. Population_2020
+4. Population_2021
+
+Once tables were uploaded in PostgreSQL, an INNER JOIN was performed for each population year and the housing table. Creating the following tables:
+
+1. Housing_pop2019
+2. Housing_pop2020
+3. Housing_pop2021
+
+![QuickDBD-2nd](https://user-images.githubusercontent.com/101649525/199623884-8ebb786c-6118-4e75-9b26-90e797b9c267.png)
+
+SQLAlchemy is used as a connection string to import the tables into Python and will be used in the Machine Learning Model.
+
+#### Sara
+
+For this segment, I am taking on the circle role. The task for this role consists of presenting three images to use in the presentation and dashboard. I have used Tableau to create graphs that analyze average house size, acre lot, and price in each city for the years 2019, 2020, and 2021. These graphs are meant to give an idea of what the typical house size, acre lot, and price is by each city and which cities have larger houses and higher house prices.
+
+Size vs. Price 2019:
+<img width="887" alt="size vs price 2019" src="https://user-images.githubusercontent.com/107032720/199873316-1b57f536-319e-4b3f-8bac-b3a345ff24ce.png">
+
+Size vs. Price 2020:
+<img width="890" alt="size vs price 2020" src="https://user-images.githubusercontent.com/107032720/199873394-3edb9860-b6ed-4998-b069-ff17f2a1e822.png">
+
+Size vs. Price 2021:
+<img width="1050" alt="size vs price 2021" src="https://user-images.githubusercontent.com/107032720/199873395-6cca20fc-bb04-4992-bf29-8a40363014b8.png">
 
 ## Third Segment
 
@@ -53,10 +93,11 @@
 
 ## Fourth Segment
 
-
-
-
+#### Brandon
 
 #### Samantha
 
+#### Carissa
+
+#### Sara
 
