@@ -48,7 +48,7 @@ This model choice was done due to seeking a continuous variable (price) and due 
   - Six charts depicting: # of bathrooms, # of bedrooms, # of houses by square footage, Acreage grouping, average features by sell date, and average prices by zip code
 
 #### Carissa
-During the second segment, we decided on our final datasets. The data was cleaned and the following tables were created using Python with Jupyter Notebook then exported to SQL:
+During the second segment, we changed datasets. The data was cleaned and the following tables were created using Python with Jupyter Notebook then exported to SQL:
 
 1. Housing
 2. Population_2019
@@ -98,7 +98,24 @@ Size vs. Price 2021:
 
 #### Carissa
 
+During the third segment, we finalized our datasets. The data was scaled down to the city level of New York state. We used 5 urban cities (Nyack, Tuckahoe, Suffern, Stony Point, & Scarsdale) and 5 large cties (Brooklyn, Bronx, Staten Island, Queens & Yonkers). The data was preprocessed and the following tables were created using Python with Jupyter Notebook then exported to pgadmin:
 
+1. housing
+2. urban_populations
+3. city_populations
+4. housing_without_join
+
+Once tables were in pgadmin, using PostgreSQL, an INNER JOIN was performed for the city_populations + housing and the urban_populations + housing tables. Creating the following new tables:
+
+1. housing_urban_pops
+2. housing_city_pops
+
+The following tables were then imported by using SQLalchemy into the Machine Learning environment in Jupyter Notebook.
+
+1. housing
+2. housing_without_join
+3. housing_urban_pops
+4. housing_city_pops
 
 #### Sara
 
