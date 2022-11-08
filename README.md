@@ -11,7 +11,7 @@
 - Questions the team hopes to answer with the data
   - Was there an effect on housing prices and populations due to the covid-19 pandemic?
   - Does the number of bedrooms matter? What about bathrooms? Square footage? Size of the acre lot?
-  - Does population have an impact on housing prices? (Machine-Learning Linear Regression Model  prediction)
+  - Does population have an impact on housing prices? (Machine-Learning Linear Regression Model prediction)
 
 ## First Segment 
 
@@ -48,7 +48,7 @@ This model choice was done due to seeking a continuous variable (price) and due 
   - Six charts depicting: # of bathrooms, # of bedrooms, # of houses by square footage, Acreage grouping, average features by sell date, and average prices by zip code
 
 #### Carissa
-During the second segment, we decided on our final datasets. The data was cleaned and the following tables were created using Python with Jupyter Notebook then exported to SQL:
+During the second segment, we changed datasets. The data was cleaned and the following tables were created using Python with Jupyter Notebook then exported to SQL:
 
 1. Housing
 2. Population_2019
@@ -84,7 +84,7 @@ Size vs. Price 2021:
 
 
 
-#### Samantha
+#### Samantha (Triangle Role): Presentation
 
 - Another dataset shift - switching from state population to a more focused city population. We decided to do 5 lower population and 5 higher to compare the housing prices that way.
   - I worked on collecting the lower population data: "urban_populations.csv" with the sources in the csv file since it came from all over
@@ -103,7 +103,24 @@ Size vs. Price 2021:
 
 #### Carissa
 
+During the third segment, we finalized our datasets. The data was scaled down to the city level of New York state. We used 5 urban cities (Nyack, Tuckahoe, Suffern, Stony Point, & Scarsdale) and 5 large cties (Brooklyn, Bronx, Staten Island, Queens & Yonkers). The data was preprocessed and the following tables were created using Python with Jupyter Notebook then exported to pgadmin:
 
+1. housing
+2. urban_populations
+3. city_populations
+4. housing_without_join
+
+Once tables were in pgadmin, using PostgreSQL, an INNER JOIN was performed for the city_populations + housing and the urban_populations + housing tables. Creating the following new tables:
+
+1. housing_urban_pops
+2. housing_city_pops
+
+The following tables were then imported by using SQLalchemy into the Machine Learning environment in Jupyter Notebook.
+
+1. housing
+2. housing_without_join
+3. housing_urban_pops
+4. housing_city_pops
 
 #### Sara
 
