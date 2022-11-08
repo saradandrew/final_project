@@ -11,7 +11,7 @@
 - Questions the team hopes to answer with the data
   - Was there an effect on housing prices and populations due to the covid-19 pandemic?
   - Does the number of bedrooms matter? What about bathrooms? Square footage? Size of the acre lot?
-  - Does population have an impact on housing prices? (Machine-Learning Linear Regression Model  prediction)
+  - Does population have an impact on housing prices? (Machine-Learning Linear Regression Model prediction)
 
 ## First Segment 
 
@@ -84,7 +84,7 @@ Size vs. Price 2021:
 
 
 
-#### Samantha
+#### Samantha (Triangle Role): Presentation
 
 - Another dataset shift - switching from state population to a more focused city population. We decided to do 5 lower population and 5 higher to compare the housing prices that way.
   - I worked on collecting the lower population data: "urban_populations.csv" with the sources in the csv file since it came from all over
@@ -93,8 +93,13 @@ Size vs. Price 2021:
     - The ML code will begin with connecting to the SQL database to pull the newly joined data directly into the Jupyter Notebook
     - Collaborative effort:
       - Carissa helped to make adjustments to the preprocessing so that the SQL joins would run smoothly and I added an additional dataframe that still kept all of the data from the state of New York for our analysis outside of the population aspect from the 10 chosen cities
-- Updated the interactive Tableau dashboard - removed the "features by sell date" chart to keep it a little cleaner.
+- Updated the interactive Tableau dashboard - removed the "features by sell date" chart to keep it a little cleaner & rearranged to make the map more visually appealing
   - The charts that will provide more specific information, but will not be interactive, will be created by Sara and added to the Google Slides
+- Updated our Google Slides to get us closer to our final presentation version
+  - I created some of the images for the slideshow, adding them to the images folder on GitHub. Found images have been sourced in the slides directly
+- I am working on a "Talking Points" guide in Microsoft Word to help add structure to our presentation and to provide points we want addressed, but don't want written in the slides themselves.
+  - This will be updated as tasks are completed and the slides can finish being filled out with all of the necessary information
+  - The team will discuss together which parts each member will be presenting
 
 #### Carissa
 
@@ -125,9 +130,15 @@ The following tables were then imported by using SQLalchemy into the Machine Lea
 
 #### Brandon
 
+
+
 #### Samantha
 
+
+
 #### Carissa
+
+
 
 #### Sara
 
