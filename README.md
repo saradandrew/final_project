@@ -26,15 +26,6 @@
 
 ## Second Segment 
 
-#### Brandon (Triangle Role)
-We are looking at how change in population impacts housing prices. This was done by creating a linear regression. 
-
-Data was found on Kaggle for real estate information in New York. We also found New York population from 2019 to 2021. Data was then filtered down to bathrooms from 1 to 5 and bedrooms from 1 to 6.  House size, acreage, and population were not filtered because they did not have the same severity of outliers.
-
-This data was the split assigning our X variables (or independent variables) and y (or independent variable). X: "bed", "bath", "house_size", "acre_lot", and “population.” And Y: “price.” Unneeded columns were dropped to help better organize the data for the model.
-
-This model choice was done due to seeking a continuous variable (price) and due to its ease of use for this type of dataset. 
-
 #### Samantha ("X Role" - Presentation: Google Slides, Tableau)
 
 - Our dataset shifted again, as our machine learning helped us determine that we needed different features to predict what we wanted. So I updated our preprocessing of the data to account for this.
@@ -47,42 +38,7 @@ This model choice was done due to seeking a continuous variable (price) and due 
 - Tableau Dashboard has been created and added to index.html (visible from github pages deployment)
   - Six charts depicting: # of bathrooms, # of bedrooms, # of houses by square footage, Acreage grouping, average features by sell date, and average prices by zip code
 
-#### Carissa
-During the second segment, we changed datasets. The data was cleaned and the following tables were created using Python with Jupyter Notebook then exported to SQL:
-
-1. Housing
-2. Population_2019
-3. Population_2020
-4. Population_2021
-
-Once tables were uploaded in PostgreSQL, an INNER JOIN was performed for each population year and the housing table. Creating the following tables:
-
-1. Housing_pop2019
-2. Housing_pop2020
-3. Housing_pop2021
-
-![QuickDBD-2nd](https://user-images.githubusercontent.com/101649525/199623884-8ebb786c-6118-4e75-9b26-90e797b9c267.png)
-
-SQLAlchemy is used as a connection string to import the tables into Python and will be used in the Machine Learning Model.
-
-#### Sara
-
-For this segment, I am taking on the circle role. The task for this role consists of presenting three images to use in the presentation and dashboard. I have used Tableau to create graphs that analyze average house size, acre lot, and price in each city for the years 2019, 2020, and 2021. These graphs are meant to give an idea of what the typical house size, acre lot, and price is by each city and which cities have larger houses and higher house prices.
-
-Size vs. Price 2019:
-<img width="887" alt="size vs price 2019" src="https://user-images.githubusercontent.com/107032720/199873316-1b57f536-319e-4b3f-8bac-b3a345ff24ce.png">
-
-Size vs. Price 2020:
-<img width="890" alt="size vs price 2020" src="https://user-images.githubusercontent.com/107032720/199873394-3edb9860-b6ed-4998-b069-ff17f2a1e822.png">
-
-Size vs. Price 2021:
-<img width="1050" alt="size vs price 2021" src="https://user-images.githubusercontent.com/107032720/199873395-6cca20fc-bb04-4992-bf29-8a40363014b8.png">
-
 ## Third Segment
-
-#### Brandon
-
-
 
 #### Samantha (Triangle Role): Presentation
 
@@ -93,52 +49,15 @@ Size vs. Price 2021:
     - The ML code will begin with connecting to the SQL database to pull the newly joined data directly into the Jupyter Notebook
     - Collaborative effort:
       - Carissa helped to make adjustments to the preprocessing so that the SQL joins would run smoothly and I added an additional dataframe that still kept all of the data from the state of New York for our analysis outside of the population aspect from the 10 chosen cities
-- Updated the interactive Tableau dashboard - removed the "features by sell date" chart to keep it a little cleaner & rearranged to make the map more visually appealing
-  - The charts that will provide more specific information, but will not be interactive, will be created by Sara and added to the Google Slides
+- Updated the interactive Tableau dashboard - swapped it out with Sara's dashboard to highlight the result charts over the analysis charts
+  - Saved my charts as png files and added them directly to the Google Slides instead
 - Updated our Google Slides to get us closer to our final presentation version
   - I created some of the images for the slideshow, adding them to the images folder on GitHub. Found images have been sourced in the slides directly
 - I am working on a "Talking Points" guide in Microsoft Word to help add structure to our presentation and to provide points we want addressed, but don't want written in the slides themselves.
   - This will be updated as tasks are completed and the slides can finish being filled out with all of the necessary information
   - The team will discuss together which parts each member will be presenting
 
-#### Carissa
-
-During the third segment, we finalized our datasets. The data was scaled down to the city level of New York state. We used 5 urban cities (Nyack, Tuckahoe, Suffern, Stony Point, & Scarsdale) and 5 large cties (Brooklyn, Bronx, Staten Island, Queens & Yonkers). The data was preprocessed and the following tables were created using Python with Jupyter Notebook then exported to pgadmin:
-
-1. housing
-2. urban_populations
-3. city_populations
-4. housing_without_join
-
-Once tables were in pgadmin, using PostgreSQL, an INNER JOIN was performed for the city_populations + housing and the urban_populations + housing tables. Creating the following new tables:
-
-1. housing_urban_pops
-2. housing_city_pops
-
-The following tables were then imported by using SQLalchemy into the Machine Learning environment in Jupyter Notebook.
-
-1. housing
-2. housing_without_join
-3. housing_urban_pops
-4. housing_city_pops
-
-#### Sara
-
-
-
 ## Fourth Segment
 
-#### Brandon
-
-
-
 #### Samantha
-
-
-
-#### Carissa
-
-
-
-#### Sara
 
