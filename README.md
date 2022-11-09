@@ -117,8 +117,8 @@ Size vs. Price 2021:
     - The ML code will begin with connecting to the SQL database to pull the newly joined data directly into the Jupyter Notebook
     - Collaborative effort:
       - Carissa helped to make adjustments to the preprocessing so that the SQL joins would run smoothly and I added an additional dataframe that still kept all of the data from the state of New York for our analysis outside of the population aspect from the 10 chosen cities
-- Updated the interactive Tableau dashboard - removed the "features by sell date" chart to keep it a little cleaner & rearranged to make the map more visually appealing
-  - The charts that will provide more specific information, but will not be interactive, will be created by Sara and added to the Google Slides
+- Updated the interactive Tableau dashboard - swapped it out with Sara's dashboard to highlight the result charts over the analysis charts
+  - Saved my charts as png files and added them directly to the Google Slides instead
 - Updated our Google Slides to get us closer to our final presentation version
   - I created some of the images for the slideshow, adding them to the images folder on GitHub. Found images have been sourced in the slides directly
 - I am working on a "Talking Points" guide in Microsoft Word to help add structure to our presentation and to provide points we want addressed, but don't want written in the slides themselves.
