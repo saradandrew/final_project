@@ -17,3 +17,7 @@ To accomplish this, we are aiming to use a linear regresission using price, numb
 The model will look at the statistical significance of each variable and we will be training the model to better fit the data to help understand what factors the changes in state populations may have moving forward on those states by starting with predicted housing prices. 
 
 A mock up model has been created with the dataframes that were cleaned by Samantha. The cleaned data will be used to create a linear regression model so we can split the data into train and test models for the x and y variables. 
+
+
+## Project Progress
+After working on the project, we decided it would be better to have 2 seperate models. The first model has the variables listed above. And the second model has those as well as a machine feature to include the change in population from 2019 to 2020 as well as the change from 2020 to 2021. This was done to answer the specfic question of if change in populatuion (people moving due to COVID) had ay impact on housing prices. 
