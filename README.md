@@ -51,8 +51,10 @@
       - Carissa helped to make adjustments to the preprocessing so that the SQL joins would run smoothly and I added an additional dataframe that still kept all of the data from the state of New York for our analysis outside of the population aspect from the 10 chosen cities
 - Updated the interactive Tableau dashboard - swapped it out with Sara's dashboard to highlight the result charts over the analysis charts
   - Saved my charts as png files and added them directly to the Google Slides instead
+  - Also created additional charts in our "Summary" section to address the results of our bed/bath/square footage/acreage research question
 - Updated our Google Slides to get us closer to our final presentation version
   - I created some of the images for the slideshow, adding them to the images folder on GitHub. Found images have been sourced in the slides directly
+  - The slides will be fine-tuned to shift the focus more towards results & recommendations
 - I am working on a "Talking Points" guide in Microsoft Word to help add structure to our presentation and to provide points we want addressed, but don't want written in the slides themselves.
   - This will be updated as tasks are completed and the slides can finish being filled out with all of the necessary information
   - The team will discuss together which parts each member will be presenting
