@@ -20,3 +20,8 @@ Size vs. Price 2020:
 
 Size vs. Price 2021:
 <img width="1050" alt="size vs price 2021" src="https://user-images.githubusercontent.com/107032720/199873395-6cca20fc-bb04-4992-bf29-8a40363014b8.png">
+
+## Segment 3: Square Role
+I took on the square role again for this segment. One of the responsibilities of this role included tying up loose ends such as peer reviewing and checking our code, merging and closing branches as necessary, and ensuring the repository is ready for public viewing  by updating a .gitignore and requirements.txt document.
+
+Each member of our team updated their .gitignore throughout working on the project so we did not need to add any documents or update our .gitignore file. I created a branch titled branch1 to peer review and create the requirements.txt file. This branch was merged into the main branch and deleted once this task was completed.
