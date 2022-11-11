@@ -147,8 +147,9 @@ The following tables were then imported by using SQLalchemy into the Machine Lea
 4. housing_city_pops
 
 #### Sara
+I took on the square role again for this segment. One of the responsibilities of this role included tying up loose ends such as peer reviewing and checking our code, merging and closing branches as necessary, and ensuring the repository is ready for public viewing by updating a .gitignore and requirements.txt document.
 
-
+Each member of our team updated their .gitignore throughout working on the project so we did not need to add any documents or update our .gitignore file. I created a branch titled branch1 to peer review and create the requirements.txt file. This branch was merged into the main branch and deleted once this task was completed.
 
 ## Fourth Segment
 
