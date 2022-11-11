@@ -105,7 +105,16 @@ Size vs. Price 2021:
 ## Third Segment
 
 #### Brandon
+To better address our model, we looked at doing ones for city (in NYC) and urban (outside NYC) and then compaired those with and without change in population. This was done to see the effects of people moving due to covid.
 
+However, the findings were not as strong as we would have liked. 
+
+Below are the p values and r squared values respectivly
+![group values](https://user-images.githubusercontent.com/106126621/201261560-83133635-31c7-418b-8ce1-4336b9e2787c.png)
+
+These show that the change in poulation is not statistically significant as far as impacting price, and the lower r squared shows there may be some random outcome at play as well.
+
+To better strengthen this in the future would be to try and be even more narrow in our comparisons as well as add other factors like school rate, crime rate, and job opprotunity.
 
 
 #### Samantha (Triangle Role): Presentation
