@@ -56,3 +56,5 @@ The following tables were then imported by using SQLalchemy into the Machine Lea
 
 
 ## Fourth Segment
+
+In the fourth segment we finished our dashboard and presentation. I completed the final ReadMe for the project on the main branch and made sure all supporting data and attachments were present.
