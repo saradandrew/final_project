@@ -63,3 +63,12 @@
 
 #### Samantha
 
+- Finishing touches on Google Slides
+  - Removed excess slides (Carissa is including all of the removed information in the final version of the ReadMe)
+    - Heavy focus on analysis and results
+    - Created more summary charts (populations vs price)
+- Finished up the Speaker Notes for our presentation
+  - Typed out several "talking points" to add more detail behind visual slides
+    - Some "talking points" were collaborative (Sara's Tableau points, Brandon's ML predictions and summary)
+- Added some folder structure to the main branch of the repository for better organization
+  - Also updated some of the commit messages for clarity and a cleaner look
