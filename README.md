@@ -1,4 +1,4 @@
-## Does population have an impact on housing prices?
+# Does population have an impact on housing prices?
 #### Project Description
 We did an analysis of real estate data in New York from 2019 to 2021. We wanted to target the timeframe before, at the height of, and at the down-tick of the COVID pandemic and to determine if population changes had any effect on housing prices.
 #### The Data
@@ -74,19 +74,60 @@ Our low population datasets were smaller than our high population datasets, so w
 #### Model Training
 - First trained the model without filtering outliers - R2 values were all 47%
 - Then re-trained the model after filtering bedroom and bathroom outliers, giving us higher R2 values (accuracy)
-    - 49% City
+    - 50% City
     - 77% Urban
 ## Results
 #### How much does each feature impact the house price?
-#### Was there an effect on housing prices and populations due to
-the covid-19 pandemic?
-#### Was there an effect on housing prices and populations due to
-the covid-19 pandemic?
+
+![image](https://user-images.githubusercontent.com/101649525/201802015-0a572dcc-21bc-4f6d-81e3-b8e2d11cfd47.png)
+
+#### Was there an effect on housing prices and populations due to the covid-19 pandemic?
+
+![image](https://user-images.githubusercontent.com/101649525/201800793-950aa338-2794-4826-afdb-2558df650654.png)
+
+`high population cities`: All of the cities had a population spike in 2020 followed by a small drop in 2021. It appears as though Queens and Staten Island had price drops after 2020. There does not seem to be a pattern or correlation between housing prices and population before, during, or after the pandemic.
+
+`low population cities`: There were a few minor increases in population in Stony Point, Suffern, and Tuckahoe. Our dataset only had housing price data from all 3 years for Nyack and Scarsdale. All we are able to determine is that housing prices dropped in these 2 cities from 2020 to 2021, but we are unable to determine if it’s related to the pandemic.
+
 #### Does the number of bedrooms affect the price of the house?
+
+![image](https://user-images.githubusercontent.com/101649525/201800871-f14efe08-fcac-49b7-9f63-7a330c8685aa.png)
+
+`high population cities`: does not appear so
+
+`low population cities`: yes, especially when the number of bedrooms exceeds 5
+
 #### Does the number of bathrooms affect the price of the house?
+
+![image](https://user-images.githubusercontent.com/101649525/201800981-9f060d40-d156-43d9-a8a2-2edf638883ec.png)
+
+`high population cities`: does not appear so
+
+`low population cities`: somewhat, especially when the number of bathrooms exceeds 5
+
 #### Does the house's square footage affect the price?
+
+![image](https://user-images.githubusercontent.com/101649525/201801054-19e37fa8-e15f-4968-8159-4df396db345d.png)
+
+`high population cities`: does not appear so
+
+`low population cities`: yes, especially when the square footage exceeds 4,000 sq.ft.
+
 #### Does the house's acre lot size affect the price?
+
+![image](https://user-images.githubusercontent.com/101649525/201801169-ee71c5c8-762f-4752-9d33-cfcacc6f6521.png)
+
+`high population cities`: does not appear so
+
+`low population cities`: does not appear so
+
 #### Does population have an impact on housing prices?
+
+![image](https://user-images.githubusercontent.com/101649525/201801286-90dff6d6-a501-4a45-8435-ef81f2a4d881.png)
+
+`high population cities`:
+
+`low population cities`:
 ## Summary
 ??
 #### Recommendation for Future Analysis
@@ -97,5 +138,4 @@ the covid-19 pandemic?
     - School ratings/quality
     - Job opportunities
 #### What the Team Would Have Done Differently 
-??
 ??
