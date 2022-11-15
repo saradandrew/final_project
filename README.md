@@ -66,9 +66,12 @@
 - Finishing touches on Google Slides
   - Removed excess slides (Carissa is including all of the removed information in the final version of the ReadMe)
     - Heavy focus on analysis and results
-    - Created more summary charts (populations vs price)
+    - Created more summary charts
+      - Populations vs Price
+      - ML Populations vs Price/All Features vs Price
+        - added the code used to create the charts from our machine learning model for reference, although it will not need to be added to the main branch
 - Finished up the Speaker Notes for our presentation
   - Typed out several "talking points" to add more detail behind visual slides
-    - Some "talking points" were collaborative (Sara's Tableau points, Brandon's ML predictions and summary)
+    - Some "talking points" were collaborative (Sara's Tableau points, Brandon's ML predictions)
 - Added some folder structure to the main branch of the repository for better organization
   - Also updated some of the commit messages for clarity and a cleaner look
