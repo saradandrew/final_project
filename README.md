@@ -15,7 +15,7 @@
 
 ## First Segment 
 
-#### Samantha (X Role): Presentation/Data Preprocessing 
+#### Samantha: Presentation/Data Preprocessing 
 - Technologies were discussed amongst the group and typed up in a markdown format. It will be updated if needed as we progess through the project.
 - Data preprocessing has been done (cleaned, encoded, scaled data, added preliminary sql connection coding)
   - Each TM will need to create a config.py to run the full code on their individual computers
@@ -26,7 +26,7 @@
 
 ## Second Segment 
 
-#### Samantha ("X Role" - Presentation: Google Slides, Tableau)
+#### Samantha: Presentation, Google Slides, Tableau Charts)
 
 - Our dataset shifted again, as our machine learning helped us determine that we needed different features to predict what we wanted. So I updated our preprocessing of the data to account for this.
   - Old dataset was removed
@@ -40,7 +40,7 @@
 
 ## Third Segment
 
-#### Samantha (Triangle Role): Presentation
+#### Samantha: Presentation
 
 - Another dataset shift - switching from state population to a more focused city population. We decided to do 5 lower population and 5 higher to compare the housing prices that way.
   - I worked on collecting the lower population data: "urban_populations.csv" with the sources in the csv file since it came from all over
@@ -71,7 +71,6 @@
       - ML Populations vs Price/All Features vs Price
         - added the code used to create the charts from our machine learning model for reference, although it will not need to be added to the main branch
 - Finished up the Speaker Notes for our presentation
-  - Typed out several "talking points" to add more detail behind visual slides
-    - Some "talking points" were collaborative (Sara's Tableau points, Brandon's ML predictions)
+    - Some "talking points" were collaborative (Sara's Tableau points, Brandon's ML predictions/summary)
 - Added some folder structure to the main branch of the repository for better organization
   - Also updated some of the commit messages for clarity and a cleaner look
