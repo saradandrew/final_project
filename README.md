@@ -35,20 +35,20 @@ Once tables were uploaded in PostgreSQL, an INNER JOIN was performed for each po
 SQLAlchemy is used as a connection string to import the tables into Python and will be used in the Machine Learning Model.
 
 ## Third Segment
-During the third segment, we finalized our datasets. The data was scaled down to the city level of New York state. We used 5 urban cities (Nyack, Tuckahoe, Suffern, Stony Point, & Scarsdale) and 5 large cties (Brooklyn, Bronx, Staten Island, Queens & Yonkers). The data was preprocessed and the following tables were created using Python with Jupyter Notebook then exported to pgadmin:
+During the third segment, we finalized our datasets. The data was scaled down to the city level of New York state. We used 5 urban cities (Nyack, Tuckahoe, Suffern, Stony Point, & Scarsdale) and 5 large cties (Brooklyn, Bronx, Staten Island, Queens & Yonkers). The data was preprocessed and the following tables were created using `Pandas` in Jupyter Notebook then exported to pgadmin:
 
 1. housing
 2. urban_populations
 3. city_populations
 4. housing_without_join
 
-Once tables were in pgadmin, using PostgreSQL, an INNER JOIN was performed for the city_populations + housing and the urban_populations + housing tables. Creating the following new tables:
+Once tables were in pgadmin, using `PostgreSQL`, an INNER JOIN was performed for the city_populations + housing and the urban_populations + housing tables. Creating the following new tables:
 
 1. housing_urban_pops
 2. housing_city_pops
 
 
-The following tables were then imported by using SQLalchemy into the Machine Learning environment in Jupyter Notebook. 
+The following tables were then imported by using `SQLalchemy` into the Machine Learning environment in Jupyter Notebook. 
 1. housing
 2. housing_without_join
 3. housing_urban_pops
@@ -57,4 +57,4 @@ The following tables were then imported by using SQLalchemy into the Machine Lea
 
 ## Fourth Segment
 
-In the fourth segment we finished our dashboard and presentation. I completed the final ReadMe for the project on the main branch and made sure all supporting data and attachments were present.
+In the fourth segment, the team worked together to finish our dashboard, presentation, and talking points. I completed the final ReadMe for the project on the main branch and made sure all supporting data and attachments were present.
