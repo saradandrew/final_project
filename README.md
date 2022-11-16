@@ -9,7 +9,7 @@
 - Description of the source of data
   - Kaggle Data Sets, CSV format
 - Questions the team hopes to answer with the data
-  - Was there an effect on housing prices and populations due to the covid-19 pandemic?
+  - Was there an effect on housing prices and populations during 2019-2021?
   - Does the number of bedrooms matter? What about bathrooms? Square footage? Size of the acre lot?
   - Does population have an impact on housing prices? (Machine-Learning Linear Regression Model prediction)
 
@@ -61,7 +61,7 @@
 
 ## Fourth Segment
 
-#### Samantha
+#### Samantha: Presentation
 
 - Finishing touches on Google Slides
   - Removed excess slides (Carissa is including all of the removed information in the final version of the ReadMe)
