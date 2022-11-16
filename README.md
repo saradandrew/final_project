@@ -1,6 +1,7 @@
 # Does population have an impact on housing prices?
+Google Slides & Interactive Tableau Dashboard [here](https://saradandrew.github.io/final_project/).
 #### Project Description
-We did an analysis of real estate data in New York from 2019 to 2021. We wanted to target the timeframe before, at the height of, and at the down-tick of the COVID pandemic and to determine if population changes had any effect on housing prices.
+For our analysis, we looked at the real estate data in New York through the covid-19 pandemic, years 2019 - 2021, to find the relationship between housing prices and population. 
 #### The Data
 Data (CSV format): 
 - USA Real Estate Dataset, targeted to New York state  (Kaggle)
@@ -15,12 +16,9 @@ Data (CSV format):
 #### Reason for Topic Selection
 In searching for data to analyze with a machine learning model, we became curious about how the pandemic could have impacted housing prices.
 #### Research Questions to Answer
-1. Was there an affect on housing prices and populations due to the covid-19 
-pandemic?
-2. Does the number of bedrooms matter? What about bathrooms? Square 
-footage? Size of the acre lot?
-3. Does population have an impact on housing prices? (Machine-Learning Linear 
-Regression Model prediction)
+1. Was there an affect on housing prices and populations due to the covid-19 pandemic?
+2. Does the number of bedrooms matter? What about bathrooms? Square footage? Size of the acre lot?
+3. Does population have an impact on housing prices? (Machine-Learning Linear Regression Model prediction)
 #### Data Exploration
 Upon viewing the raw data, it became clear that we wanted to focus solely on the state of New York. There was tons of data in varying population sizes and it is a popular city that people love to move to; however, it could have had to leave due to the pandemic.
 
@@ -76,16 +74,17 @@ Our low population datasets were smaller than our high population datasets, so w
 - Then re-trained the model after filtering bedroom and bathroom outliers, giving us higher R2 values (accuracy)
     - 50% City
     - 77% Urban
-## Results
 #### How much does each feature impact the house price?
 
 ![image](https://user-images.githubusercontent.com/101649525/201802015-0a572dcc-21bc-4f6d-81e3-b8e2d11cfd47.png)
 
+ Results show as expected for the traditional factors of a house: high populations show a weak impact. Low populations show the opposite of expected, this points to the inaccuracy of our model. However, the change in population from 2019 does show a decrease in price in high populations and an increase in price for low populations. The inverse is seen for 2020. This supports the idea of people leaving larger cities during the height of the pandemic and having to return to them once offices were no longer offering remote work.
+## Results
 #### Was there an effect on housing prices and populations due to the covid-19 pandemic?
 
 ![image](https://user-images.githubusercontent.com/101649525/201800793-950aa338-2794-4826-afdb-2558df650654.png)
 
-`high population cities`: All of the cities had a population spike in 2020 followed by a small drop in 2021. It appears as though Queens and Staten Island had price drops after 2020. There does not seem to be a pattern or correlation between housing prices and population before, during, or after the pandemic.
+`high population cities`: All of the cities had a population spike in 2020 followed by a small drop in 2021. It appears as though Queens and Staten Island had price drops after 2020. There does not seem to be a pattern or correlation between housing prices and population between 2019 and 2021.
 
 `low population cities`: There were a few minor increases in population in Stony Point, Suffern, and Tuckahoe. Our dataset only had housing price data from all 3 years for Nyack and Scarsdale. All we are able to determine is that housing prices dropped in these 2 cities from 2020 to 2021, but we are unable to determine if it’s related to the pandemic.
 
@@ -120,16 +119,13 @@ Our low population datasets were smaller than our high population datasets, so w
 `high population cities`: does not appear so
 
 `low population cities`: does not appear so
-
-#### Does population have an impact on housing prices?
-
-![image](https://user-images.githubusercontent.com/101649525/201801286-90dff6d6-a501-4a45-8435-ef81f2a4d881.png)
-
-`high population cities`:
-
-`low population cities`:
 ## Summary
-??
+### Does population have an impact on housing prices?
+
+![image](https://user-images.githubusercontent.com/101649525/202060733-16a0084e-c73f-4c8d-af55-95b207d9ea42.png)
+
+![image](https://user-images.githubusercontent.com/101649525/202060884-c2e2a883-4c12-4235-acb5-0ae35c409e37.png)
+Population alone does not have an impact on housing prices. Adding features such as number of bedrooms and bathrooms, square footage, and acreage help to provide more accuracy, but more features are needed to be able to predict housing prices.
 #### Recommendation for Future Analysis
 - Find more features to make the model more accurate
 - Find better ways to evaluate location
@@ -137,5 +133,5 @@ Our low population datasets were smaller than our high population datasets, so w
     - Crime rate
     - School ratings/quality
     - Job opportunities
-#### What the Team Would Have Done Differently 
-??
+#### What We Would Have Done Differently 
+Ideally, we would have liked to have more detailed data narrowed down to specific zipcodes, preferably ones in which we reside, during 2019- 2021. Also, we would have liked to had gotten a higher accuracy level with our machine learning model, which we feel could be done by using our above recommendations.
